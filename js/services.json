@@ -1,0 +1,154 @@
+{
+  "menage": {
+    "title": "Ménage Résidentiel",
+    "description": "Un service complet de nettoyage domestique adapté à vos besoins spécifiques.",
+    "features": [
+      "Nettoyage en profondeur de toutes les pièces",
+      "Dépoussiérage et nettoyage des surfaces",
+      "Aspiration et lavage des sols",
+      "Nettoyage des sanitaires et salles de bain",
+      "Nettoyage de la cuisine et des appareils électroménagers",
+      "Changement de draps sur demande",
+      "Options de services réguliers ou ponctuels"
+    ],
+    "benefits": [
+      "Personnel qualifié et formé",
+      "Produits écologiques disponibles",
+      "Service flexible et personnalisable",
+      "Assurance qualité garantie"
+    ]
+  },
+  "bureau": {
+    "title": "Entretien Commercial",
+    "description": "Services professionnels de nettoyage pour entreprises et espaces commerciaux.",
+    "features": [
+      "Nettoyage quotidien des bureaux",
+      "Entretien des espaces communs",
+      "Nettoyage des sanitaires",
+      "Aspiration et nettoyage des sols",
+      "Collecte des déchets",
+      "Désinfection des points de contact",
+      "Services sur mesure selon vos horaires"
+    ],
+    "benefits": [
+      "Équipe dédiée et professionnelle",
+      "Supervision régulière",
+      "Reporting détaillé",
+      "Solutions adaptées à votre budget"
+    ]
+  },
+  "airbnb": {
+    "title": "Service Airbnb",
+    "description": "Solution complète pour les hôtes Airbnb et locations courte durée.",
+    "features": [
+      "Nettoyage complet entre chaque location",
+      "Changement de draps et serviettes",
+      "Vérification des équipements",
+      "Réapprovisionnement des consommables",
+      "Photos après nettoyage",
+      "Service d'urgence disponible",
+      "Gestion flexible des plannings"
+    ],
+    "benefits": [
+      "Maximisez vos notes de propreté",
+      "Service fiable et ponctuel",
+      "Communication en temps réel",
+      "Tarifs compétitifs"
+    ]
+  },
+  "vitres": {
+    "title": "Lavage de Vitres",
+    "description": "Nettoyage professionnel de vitres pour une transparence parfaite.",
+    "features": [
+      "Nettoyage intérieur et extérieur",
+      "Lavage des cadres et rebords",
+      "Équipement professionnel",
+      "Intervention en hauteur possible",
+      "Nettoyage de vérandas",
+      "Traitement anti-pluie disponible",
+      "Service pour particuliers et professionnels"
+    ],
+    "benefits": [
+      "Personnel certifié pour le travail en hauteur",
+      "Résultat impeccable garanti",
+      "Devis gratuit",
+      "Intervention rapide"
+    ]
+  },
+  "tapis": {
+    "title": "Nettoyage de Tapis",
+    "description": "Nettoyage en profondeur de tapis, moquettes et tissus d'ameublement.",
+    "features": [
+      "Aspiration préliminaire approfondie",
+      "Traitement des taches",
+      "Nettoyage à la vapeur",
+      "Shampooing spécial tapis",
+      "Séchage accéléré",
+      "Désodorisation",
+      "Protection anti-taches disponible"
+    ],
+    "benefits": [
+      "Prolonge la durée de vie de vos tapis",
+      "Élimine les allergènes",
+      "Restaure l'aspect original",
+      "Garantie satisfaction"
+    ]
+  },
+  "construction": {
+    "title": "Nettoyage Post-Construction",
+    "description": "Remise en état complète après travaux de construction ou rénovation.",
+    "features": [
+      "Élimination des débris de construction",
+      "Nettoyage de la poussière fine",
+      "Nettoyage des surfaces neuves",
+      "Décapage des sols",
+      "Nettoyage des vitres",
+      "Dépoussiérage complet",
+      "Évacuation des déchets"
+    ],
+    "benefits": [
+      "Intervention rapide",
+      "Équipement industriel",
+      "Personnel expérimenté",
+      "Respect des délais"
+    ]
+  },
+  "demenagement": {
+    "title": "Service Déménagement",
+    "description": "Nettoyage complet avant ou après déménagement.",
+    "features": [
+      "Nettoyage approfondi de toutes les pièces",
+      "Décapage des sols",
+      "Nettoyage des placards et rangements",
+      "Détartrage sanitaires et robinetterie",
+      "Nettoyage des vitres",
+      "État des lieux possible",
+      "Évacuation des encombrants en option"
+    ],
+    "benefits": [
+      "Récupération de votre caution",
+      "Service rapide et efficace",
+      "Devis gratuit",
+      "Garantie satisfaction"
+    ]
+  },
+  "special": {
+    "title": "Services Spéciaux",
+    "description": "Solutions sur mesure pour vos besoins spécifiques.",
+    "features": [
+      "Nettoyage après sinistre",
+      "Désinfection spéciale",
+      "Traitement des odeurs",
+      "Nettoyage de caves et greniers",
+      "Entretien d'espaces verts",
+      "Services sur demande",
+      "Interventions d'urgence"
+    ],
+    "benefits": [
+      "Solutions personnalisées",
+      "Équipe polyvalente",
+      "Réactivité maximale",
+      "Accompagnement dédié"
+    ]
+  }
+}
