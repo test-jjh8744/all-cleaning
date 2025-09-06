@@ -1,0 +1,15 @@
+.icon {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.service-item .icon {
+    background: #40B2FF;
+}
+
+.service-item .icon span {
+    color: white;
+    font-size: 40px;
+}

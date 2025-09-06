@@ -1,0 +1,94 @@
+/* Service Cards */
+.service-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Modal Styles */
+.service-details .lead {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.service-details h4 {
+    color: #000;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.service-details ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 2rem;
+}
+
+.service-details ul li {
+    margin-bottom: 0.8rem;
+    color: #444;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.service-details .fa {
+    color: #f86f2d;
+}
+
+#serviceModal .modal-content {
+    border-radius: 8px;
+    border: none;
+}
+
+#serviceModal .modal-header {
+    border-bottom: 2px solid #f8f9fa;
+    padding: 1.5rem;
+}
+
+#serviceModal .modal-title {
+    color: #f86f2d;
+    font-weight: 600;
+}
+
+#serviceModal .modal-body {
+    padding: 2rem;
+}
+
+#serviceModal .modal-footer {
+    border-top: 2px solid #f8f9fa;
+    padding: 1.5rem;
+}
+
+#serviceModal .btn-primary {
+    background-color: #f86f2d;
+    border-color: #f86f2d;
+}
+
+#serviceModal .btn-primary:hover {
+    background-color: #e55d1a;
+    border-color: #e55d1a;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    #serviceModal .modal-body {
+        padding: 1.5rem;
+    }
+    
+    .service-details .lead {
+        font-size: 1rem;
+    }
+    
+    .service-details h4 {
+        font-size: 1.2rem;
+    }
+    
+    .service-details ul li {
+        font-size: 0.95rem;
+    }
+}
