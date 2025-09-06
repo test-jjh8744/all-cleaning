@@ -24,7 +24,7 @@
 			<div class="container">
 				<div class="row justify-content-between">
 						<div class="col-12 col-md d-flex align-items-center">
-							<p class="mb-0 phone"><span class="mailus">Contact :</span> <a href="tel:+1">(+1)</a> ou <span class="mailus">courriel :</span> <a href="mailto:Contact@allcleaning.fr">Contact@allcleaning.fr</a></p>
+							<p class="mb-0 phone"><span class="mailus">Contact :</span> <a href="tel:0773749833">0773749833</a> ou <span class="mailus">courriel :</span> <a href="mailto:Contact@allcleaning.fr">Contact@allcleaning.fr</a></p>
 						</div>
 						<div class="col-12 col-md d-flex justify-content-md-end">
 							<div class="social-media">
@@ -80,20 +80,28 @@
 							<h2 class="mb-4">Contactez-nous</h2>
 								<p class="sent-message text-success" style="display:none;">Votre message a été envoyé, merci !</p>
 
-							<form action="#" method="post" class="w-100">
+							<form action="https://api.web3forms.com/submit" method="POST" id="contactForm" name="contactForm" class="contactForm w-100">
+								<input type="hidden" name="access_key" value="3a05d261-3c9b-4c54-8627-a8ecb484e1fe">
+								<input type="hidden" name="subject" value="🧹 Nouvelle demande de devis - ALL CLEANING (Page d'accueil)">
+								<input type="hidden" name="from_name" value="Site Web ALL CLEANING">
+								<input type="hidden" name="replyto" value="contact@allcleaning.ma">
+								<input type="hidden" name="template" value="table">
+								<input type="hidden" name="botcheck" class="hidden" style="display: none;">
+								<input type="hidden" name="redirect" value="https://test-jjh8744.github.io/all-cleaning/merci.html">
+								<input type="hidden" name="Introduction" value="Bonjour, une nouvelle demande a été soumise depuis la page d'accueil de votre site web. Détails ci-dessous.">
 								<div class="row">
 									<div class="col-md-6 form-group">
 										<label class="form-label">NOM COMPLET</label>
-										<input type="text" name="name" class="form-control" placeholder="Nom">
+										<input type="text" name="Nom" class="form-control" placeholder="Nom complet" required>
 									</div>
 									<div class="col-md-6 form-group">
 										<label class="form-label">TÉLÉPHONE</label>
-										<input type="tel" name="phone" class="form-control" placeholder="Numéro de téléphone">
+										<input type="tel" name="Téléphone" class="form-control" placeholder="Numéro de téléphone" required>
 									</div>
 
 									<div class="col-12 form-group">
 										<label class="form-label">CHOISIR UN SERVICE</label>
-										<select name="service" class="form-control">
+										<select name="Service" class="form-control" required>
 											<option value="">-- Sélectionnez un service --</option>
 											<option value="bureaux">Bureaux</option>
 											<option value="maisons">Maisons / Villas / Appartements</option>
@@ -101,12 +109,20 @@
 											<option value="fin_de_chantier">Fin de chantier</option>
 											<option value="lavage_auto">Lavage automobile</option>
 											<option value="femme_de_menage">Femme de ménage</option>
+											<option value="menage_residentiel">Ménage Résidentiel</option>
+											<option value="entretien_commercial">Entretien Commercial</option>
+											<option value="service_airbnb">Service Airbnb</option>
+											<option value="lavage_vitres">Lavage de Vitres</option>
+											<option value="nettoyage_tapis">Nettoyage de Tapis</option>
+											<option value="nettoyage_post_construction">Nettoyage Post-Construction</option>
+											<option value="service_demenagement">Service Déménagement</option>
+											<option value="services_speciaux">Services Spéciaux</option>
 										</select>
 									</div>
 
 									<div class="col-12 form-group">
 										<label class="form-label">MESSAGE</label>
-										<textarea name="message" class="form-control" rows="5" placeholder="Message"></textarea>
+										<textarea name="Message" class="form-control" rows="5" placeholder="Message" required></textarea>
 									</div>
 
 									<div class="col-12">
@@ -153,7 +169,7 @@
 		    				</div>
 								<div class="desc p-4 bg-secondary">
 									<h3 class="heading">Contact rapide</h3>
-									<span class="phone">(+1)  - contactez-nous</span>
+									<span class="phone">0773749833 - contactez-nous</span>
 								</div>
     					</div>
     				</div>
@@ -328,8 +344,8 @@
 								<div class="img align-self-stretch" style="background-image: url(images/staff-1.jpg);"></div>
 							</div>
 							<div class="text pt-3 px-3 pb-4 text-center">
-								<h3>Lloyd Wilson</h3>
-								<span class="position mb-2">Office Cleaner</span>
+								<h3>Khaled</h3>
+								<span class="position mb-2">Responsable SEO</span>
 								<div class="faded">
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
@@ -347,8 +363,8 @@
 								<div class="img align-self-stretch" style="background-image: url(images/staff-2.jpg);"></div>
 							</div>
 							<div class="text pt-3 px-3 pb-4 text-center">
-								<h3>Lloyd Wilson</h3>
-								<span class="position mb-2">Office Cleaner</span>
+								<h3>Youssef</h3>
+								<span class="position mb-2">Agent de nettoyage</span>
 								<div class="faded">
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
@@ -366,8 +382,8 @@
 								<div class="img align-self-stretch" style="background-image: url(images/staff-3.jpg);"></div>
 							</div>
 							<div class="text pt-3 px-3 pb-4 text-center">
-								<h3>Lloyd Wilson</h3>
-								<span class="position mb-2">Office Cleaner</span>
+								<h3>Omar</h3>
+								<span class="position mb-2">Technicien nettoyage</span>
 								<div class="faded">
 									<ul class="ftco-social text-center">
 		                <li class="ftco-animate"><a href="#" class="d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a></li>
@@ -785,7 +801,7 @@
 				<div class="row">
 					<div class="col-md-6 col-lg-3 mb-4 mb-md-0">
 	 					<h2 class="footer-heading">ALL CLEANING</h2>
-						<p>Une petite rivière nommée Duden coule près de chez eux et fournit les éléments nécessaires. C'est un pays paradisiaque où les morceaux de phrases rôtis semblent voler dans votre bouche.</p>
+						<p>Le travail est effectué rapidement et proprement, les agents travaillent tout en discrétion et Respect ce qui est vraiment un point positif</p>
 						<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-4">
               <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
               <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
@@ -833,7 +849,7 @@
 						<div class="block-23 mb-3">
               <ul>
 				<li><span class="icon fa fa-map-marker"></span><span class="text">147 Boulevard Zerktouni, Casablanca, Morocco</span></li>
-				<li><a href="tel:+1"><span class="icon fa fa-phone"></span><span class="text">+1</span></a></li>
+				<li><a href="tel:0773749833"><span class="icon fa fa-phone"></span><span class="text">0773749833</span></a></li>
 				<li><a href="mailto:Contact@allcleaning.fr"><span class="icon fa fa-paper-plane"></span><span class="text">Contact@allcleaning.fr</span></a></li>
               </ul>
             </div>
@@ -842,7 +858,7 @@
 				<div class="row mt-5">
 						<div class="col-md-12 text-center">
 
-						<p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> ALL CLEANING. Tous droits réservés | Modèle réalisé avec ♥ par ALL CLEANING</p>
+						<p class="copyright">© <script>document.write(new Date().getFullYear());</script> Tous droits réservés — by <a href="https://Evolutionltd.ma" target="_blank" rel="noopener">Evolutionltd.ma</a></p>
 					</div>
         </div>
 			</div>
